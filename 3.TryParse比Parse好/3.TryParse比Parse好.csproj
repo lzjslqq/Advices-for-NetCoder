@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}</ProjectGuid>
+    <ProjectGuid>{7A8543E7-C077-4F65-916B-2DECF4231089}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2.区别对待强制转型as和is</RootNamespace>
-    <AssemblyName>2.区别对待强制转型as和is</AssemblyName>
+    <RootNamespace>_3.TryParse比Parse好</RootNamespace>
+    <AssemblyName>3.TryParse比Parse好</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseType.cs" />
-    <Compile Include="FirstType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

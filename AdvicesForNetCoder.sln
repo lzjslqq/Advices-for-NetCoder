@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.使用默认转型方法"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.区别对待强制转型as和is", "2.区别对待强制转型as和is\2.区别对待强制转型as和is.csproj", "{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.TryParse比Parse好", "3.TryParse比Parse好\3.TryParse比Parse好.csproj", "{7A8543E7-C077-4F65-916B-2DECF4231089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.区别readonly和const使用方法", "4.区别readonly和const使用方法\4.区别readonly和const使用方法.csproj", "{696BDD2E-F8A5-405E-B03D-72E390128E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8543E7-C077-4F65-916B-2DECF4231089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8543E7-C077-4F65-916B-2DECF4231089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8543E7-C077-4F65-916B-2DECF4231089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8543E7-C077-4F65-916B-2DECF4231089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696BDD2E-F8A5-405E-B03D-72E390128E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696BDD2E-F8A5-405E-B03D-72E390128E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696BDD2E-F8A5-405E-B03D-72E390128E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696BDD2E-F8A5-405E-B03D-72E390128E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
