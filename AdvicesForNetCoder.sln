@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.使用默认转型方法", "1.使用默认转型方法\1.使用默认转型方法.csproj", "{DEC8F5BA-B4FE-49DF-A2A4-2F4C21AAB30D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001.使用默认转型方法", "1.使用默认转型方法\001.使用默认转型方法.csproj", "{DEC8F5BA-B4FE-49DF-A2A4-2F4C21AAB30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.区别对待强制转型as和is", "2.区别对待强制转型as和is\2.区别对待强制转型as和is.csproj", "{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002.区别对待强制转型as和is", "2.区别对待强制转型as和is\002.区别对待强制转型as和is.csproj", "{51F2D8B0-45FA-4703-A4D3-D2E73E5881F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.TryParse比Parse好", "3.TryParse比Parse好\3.TryParse比Parse好.csproj", "{7A8543E7-C077-4F65-916B-2DECF4231089}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003.TryParse比Parse好", "3.TryParse比Parse好\003.TryParse比Parse好.csproj", "{7A8543E7-C077-4F65-916B-2DECF4231089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.区别readonly和const使用方法", "4.区别readonly和const使用方法\4.区别readonly和const使用方法.csproj", "{696BDD2E-F8A5-405E-B03D-72E390128E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004.区别readonly和const使用方法", "4.区别readonly和const使用方法\004.区别readonly和const使用方法.csproj", "{696BDD2E-F8A5-405E-B03D-72E390128E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.习惯运算符重载", "5.习惯运算符重载\5.习惯运算符重载.csproj", "{6BA6C1FF-3DD5-4798-8995-1D1B452C100D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005.习惯运算符重载", "5.习惯运算符重载\005.习惯运算符重载.csproj", "{6BA6C1FF-3DD5-4798-8995-1D1B452C100D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.创建对象时考虑是否实现比较器", "6.创建对象时考虑是否实现比较器\6.创建对象时考虑是否实现比较器.csproj", "{C2E11F99-4223-4E49-9710-CB96BBBE9EE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006.创建对象时考虑是否实现比较器", "6.创建对象时考虑是否实现比较器\006.创建对象时考虑是否实现比较器.csproj", "{C2E11F99-4223-4E49-9710-CB96BBBE9EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.正确实现浅拷贝和深拷贝", "7.正确实现浅拷贝和深拷贝\7.正确实现浅拷贝和深拷贝.csproj", "{E08422F8-5F24-4FA9-90B6-3126AF1DDB5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007.正确实现浅拷贝和深拷贝", "7.正确实现浅拷贝和深拷贝\007.正确实现浅拷贝和深拷贝.csproj", "{E08422F8-5F24-4FA9-90B6-3126AF1DDB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008.确保集合的线程安全", "8.确保集合的线程安全\008.确保集合的线程安全.csproj", "{CE3D0205-33A6-40C5-80C5-B0AF3243C6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009.避免将泛型List作为自定义集合类的基类", "9.避免将泛型List作为自定义集合类的基类\009.避免将泛型List作为自定义集合类的基类.csproj", "{3B3E3CB1-D0F8-46F1-B1EE-B4A403DD3B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010.小心闭包中的陷阱", "10.小心闭包中的陷阱\010.小心闭包中的陷阱.csproj", "{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{E08422F8-5F24-4FA9-90B6-3126AF1DDB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08422F8-5F24-4FA9-90B6-3126AF1DDB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08422F8-5F24-4FA9-90B6-3126AF1DDB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3D0205-33A6-40C5-80C5-B0AF3243C6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3D0205-33A6-40C5-80C5-B0AF3243C6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3D0205-33A6-40C5-80C5-B0AF3243C6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3D0205-33A6-40C5-80C5-B0AF3243C6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3E3CB1-D0F8-46F1-B1EE-B4A403DD3B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3E3CB1-D0F8-46F1-B1EE-B4A403DD3B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3E3CB1-D0F8-46F1-B1EE-B4A403DD3B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3E3CB1-D0F8-46F1-B1EE-B4A403DD3B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
