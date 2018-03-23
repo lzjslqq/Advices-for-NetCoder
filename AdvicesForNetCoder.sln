@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011.为泛型类型参数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012.显式释放资源需继承接口IDisposable", "012.显式释放资源需继承接口IDisposable\012.显式释放资源需继承接口IDisposable.csproj", "{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013.为无用字段标注不可序列化", "013.为无用字段标注不可序列化\013.为无用字段标注不可序列化.csproj", "{0280C462-3DB8-4F79-B8A2-2290EB54DA55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
