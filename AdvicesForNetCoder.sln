@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009.避免将泛型List作�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010.小心闭包中的陷阱", "10.小心闭包中的陷阱\010.小心闭包中的陷阱.csproj", "{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011.为泛型类型参数指定逆变", "011.为泛型类型参数指定逆变\011.为泛型类型参数指定逆变.csproj", "{44F9251B-0086-484C-B813-5599FC803B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012.显式释放资源需继承接口IDisposable", "012.显式释放资源需继承接口IDisposable\012.显式释放资源需继承接口IDisposable.csproj", "{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD1F7436-C7DC-4CA8-851C-74BA9DF03E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F9251B-0086-484C-B813-5599FC803B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F9251B-0086-484C-B813-5599FC803B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F9251B-0086-484C-B813-5599FC803B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F9251B-0086-484C-B813-5599FC803B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A1E0E3-9C23-40C9-BE85-9CCC6F50FD15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
