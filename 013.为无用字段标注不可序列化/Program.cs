@@ -30,6 +30,8 @@ namespace _013.为无用字段标注不可序列化
 			var d = BinarySerializer.DeserializeFromFile<Department>(@"C:\Users\Administrator\Desktop\department.txt");
 			Console.WriteLine(d.ToString());
 
+			TestA a = new TestA { No_A = 1, Testb = new TestB { No_B = 2 } };
+
 			Console.Read();
 		}
 
@@ -92,12 +94,26 @@ namespace _013.为无用字段标注不可序列化
 		[OnDeserializedAttribute]
 		private void OnSerialized(StreamingContext context)
 		{
-			CustomName = string.Format("{0}'s {1}", CompanyName, Name);
+			CustomName = string.Format("CompanyName:{0}'s {1}", CompanyName, Name);
 		}
 
 		public override string ToString()
 		{
-			return string.Format("==={0}{1}{2}{3}===", No, Name, CompanyName, CustomName);
+			return string.Format("==={0} {1} {2} {3}===", No, Name, CompanyName, CustomName);
 		}
+	}
+
+	[Serializable]
+	internal class TestA
+	{
+		public int No_A { get; set; }
+		public TestB Testb { get; set; }
+	}
+
+	[Serializable]
+	internal class TestB
+	{
+		public int No_B { get; set; }
+		public TestA TestA { get; set; }
 	}
 }

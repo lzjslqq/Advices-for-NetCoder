@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012.显式释放资源需�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013.为无用字段标注不可序列化", "013.为无用字段标注不可序列化\013.为无用字段标注不可序列化.csproj", "{0280C462-3DB8-4F79-B8A2-2290EB54DA55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014.使用继承ISerializable接口更灵活地控制序列化过程", "014.使用继承ISerializable接口更灵活地控制序列化过程\014.使用继承ISerializable接口更灵活地控制序列化过程.csproj", "{538C5E6E-BFEA-4BB0-9B4E-41D109643C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015.实现ISerializable的子类型应负责父类的序列化", "015.实现ISerializable的子类型应负责父类的序列化\015.实现ISerializable的子类型应负责父类的序列化.csproj", "{D1699CCD-38EF-4C7E-8D5A-30F39C6A59E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016.避免在finally内撰写无效代码", "016.避免在finally内撰写无效代码\016.避免在finally内撰写无效代码.csproj", "{EEEC182A-8DD1-4F41-AB44-BBF6677555C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +93,18 @@ Global
 		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0280C462-3DB8-4F79-B8A2-2290EB54DA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538C5E6E-BFEA-4BB0-9B4E-41D109643C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538C5E6E-BFEA-4BB0-9B4E-41D109643C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538C5E6E-BFEA-4BB0-9B4E-41D109643C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538C5E6E-BFEA-4BB0-9B4E-41D109643C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1699CCD-38EF-4C7E-8D5A-30F39C6A59E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1699CCD-38EF-4C7E-8D5A-30F39C6A59E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1699CCD-38EF-4C7E-8D5A-30F39C6A59E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1699CCD-38EF-4C7E-8D5A-30F39C6A59E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEC182A-8DD1-4F41-AB44-BBF6677555C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEC182A-8DD1-4F41-AB44-BBF6677555C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEC182A-8DD1-4F41-AB44-BBF6677555C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEC182A-8DD1-4F41-AB44-BBF6677555C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
